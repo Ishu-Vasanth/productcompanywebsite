@@ -325,20 +325,184 @@ Publish the website in the given URL.
 
 ### Layout CSS Page:
 ~~~
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+  color: #17421d;
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px gray;
+}
 
+.banner {
+  display: block;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: whitesmoke;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: black;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #16d1ae;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: #9c1018;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-image: url("C:/Users/ishwarya/Desktop/webpage/bg.jpg");
+  min-height: 500px;
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+  color: white;
+  display: inline;
+}
+.homecontent h1 {
+  color: black;
+  display: inline;
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+  color: white;
+}
+
+.productcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1 {
+  display: inline;
+  color: rgb(253, 251, 251);
+  text-align: left;
+}
+
+.productitems {
+  display: block;
+}
+
+.productitem {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.productitem img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.productitem .itemimage {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.productitem .itemname {
+  display: block;
+  color: rgb(253, 249, 249);
+  font-family: block;
+}
+.productitem .itemprice {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-family: block;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(5, 201, 37);
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  color: #9c1018;
+}
+
+.productitem1 .itemimage1 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.productitem1 .itemprice1 {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-family: block;
+}
 ~~~
 
 ## OUTPUT:
 
 ### Home Page:
 
-![output](home.png)
+![output](homepg.png)
 
 ### Product Page:
-![outtput1](product.png)
+![output1](product.png)
 
 ### People Page:
-![output2](people.png) 
+![output2](people.png)
 
 ### Contact Us:
 ![output3](contact.png)
